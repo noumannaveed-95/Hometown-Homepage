@@ -1,0 +1,226 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    color: #432F24;
+    
+    font-family: 'Lateef', serif;
+}
+
+#hero-h1{
+    position: relative;
+    top: 30px;
+    
+    width: 400px;
+    margin: 0px auto;
+    
+    font-size: 70px;
+    letter-spacing: 0.1em;
+    background: rgb(204, 204, 204, 0.5);
+    
+    border-radius: 50px;
+    text-shadow: 0.5px 0.5px 3px grey;
+    
+    transition: transform 0.5s;
+}
+
+#hero-h1:hover {
+    letter-spacing: 0.12em;
+    transform: scale(1.2);
+
+}
+
+#hero-h2{
+    position: relative;
+    top: 20px;
+    
+    width: 230px;
+    margin: 30px auto;
+    
+    letter-spacing: 0.05em;
+    background: rgb(204, 204, 204, 0.75);
+    
+    border-radius: 50px;
+    text-shadow: 0.5px 0.5px 1px grey;
+    transition: transform 0.5s;
+}
+
+#hero-h2:hover {
+    letter-spacing: 0.07em;
+    transform: scale(1.2);
+
+}
+
+
+#hero-h3 {
+    position: relative;
+    top: 10px;
+    width: 480px;
+    
+    margin: 0px auto;
+    padding: 0px 10px;
+    
+    font-size: 20px;
+    
+    background: tan;
+    border-radius: 50px;
+    box-shadow: 0px 0px 1px gray;
+    text-shadow: 0px 0px 1px grey;
+    
+    transition: transform 0.5s;
+}
+
+#hero-h3:hover {
+    transform: scale(1.2);
+}
+
+.hero{
+    background: url("images/Wazir-Khan-Masjid-Lahore.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* background image sized and position on purpose for now */
+    
+    margin: 0px auto;
+    
+    border-bottom: 2px solid #9C5431;
+    
+    padding-bottom: 180px;
+    padding-top: 20px;
+}
+
+/*activities*/
+
+#activities-sect {
+    background: linear-gradient(#BCC6C7, #B4CBDD);
+    padding-top: 1px;
+}
+
+#activities-title {
+    font-size: 32px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+
+    text-shadow: 0.5px 0.5px 0.5px grey;
+    
+    padding-bottom: 18px;
+}
+
+.act-pic {
+    width: 180px;
+    height: 150px;
+    
+    margin-top: 5px;
+    
+    border-radius: 50%;
+    border: 1px solid #9C5431;
+    box-shadow: 0px 0px 1px gray; 
+      
+}
+
+.act-container {
+    background: linear-gradient(#B2774D, #9C5431);
+    width: auto;
+    
+    border: 3px solid #9C5431;
+    border-radius: 75px;
+    
+    padding: 4px 8px 4px 8px;
+    
+    transition: transform 0.5s;
+}
+
+.act-container:hover {
+    transform: scale(1.2);
+}
+
+.activities {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: start;
+
+}
+
+.activity-heading {
+    width: 200px;
+    margin: 5px auto;
+    
+    font-size: 24px;
+    
+}
+
+.activity-txt {
+    width: 170px;
+
+    margin:  10px auto;
+    
+    font-size: 16px;
+
+}
+
+/*guide*/
+
+.guide {   
+    padding-top: 1px;
+    padding-bottom: 1px;
+    
+    background: linear-gradient(#B4CBDD,#A1C3DD,#7A9DC2);
+}
+
+.guide-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    width: 400px;
+    margin: 50px auto 25px;
+    border-radius: 100px;
+    padding: 10px 5px 5px 25px;
+    border: 3px solid #9C5431;
+    box-shadow: 0.5px 0.5px 2px grey;
+    
+    background: linear-gradient(#B2774D, #9C5431)
+    
+}
+
+.guide-txt {
+
+    font-size: 20px;
+    
+
+}
+
+.guide-heading {
+    font-size: 30px;
+    
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#guide-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 30px;
+    
+    border: 2px solid #5C331E;
+    box-shadow: 0px 0px 1px #432F24;
+    
+    transition: transform 0.5s;
+}
+
+#guide-pic:hover {
+    transform: scale(1.1);
+}
